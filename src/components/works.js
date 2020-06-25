@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { FaGlobeAmericas, FaGithub } from "react-icons/fa"
 
 const Work = () => {
   const data = useStaticQuery(graphql`
@@ -53,47 +54,45 @@ const Work = () => {
                   />
                 </div>
                 <div className="flip-card-back">
-                  <h2>To Do List</h2>
-                  <span>Youtube Channel</span>
-                  <div className="sm">
-                    <a href="#">
-                      <i className="fa fa-github-square" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-globe" aria-hidden="true"></i>
-                    </a>
+                  <div className="flip-card-back-content">
+                    <div className="sm">
+                      <a href="https://github.com/msynko/react-todo">
+                        <FaGithub />
+                      </a>
+                      <a href="https://msynko.github.io/react-todo">
+                        <FaGlobeAmericas />
+                      </a>
+                    </div>
+                    <h4>To do list app</h4>
+                    <span>To do list created with React</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="flip-card col-2">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
                   <Img
                     className="img2"
                     fluid={data.cardTwo.childImageSharp.fluid}
                   />
                 </div>
-                <div class="flip-card-back">
-                  <h2>To Do List</h2>
-                  <span>Youtube Channel</span>
-
-                  <div class="sm">
-                    <a href="#">
-                      <i class="fa fa-github" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                      <i class="fa fa-globe" aria-hidden="true"></i>
-                    </a>
-                  </div>
+                <div className="flip-card-back">
+                  <p>To do List</p>
+                  <a href="#">
+                    <FaGithub></FaGithub>
+                  </a>
+                  <a href="#">
+                    <FaGlobeAmericas></FaGlobeAmericas>
+                  </a>
                 </div>
               </div>
             </div>
 
             <div className="flip-card col-3">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
                   <Img
                     className="img3"
                     fluid={data.cardThree.childImageSharp.fluid}
@@ -103,17 +102,13 @@ const Work = () => {
                     }}
                   />
                 </div>
-                <div class="flip-card-back">
-                  <h1>John Doe</h1>
-                  <p>Architect & Engineer</p>
-                  <p>We love that guy</p>
-                </div>
+                <div className="flip-card-back"></div>
               </div>
             </div>
 
             <div className="flip-card col-4">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
                   <Img
                     className="img4"
                     fluid={data.cardFour.childImageSharp.fluid}
@@ -123,7 +118,7 @@ const Work = () => {
                     }}
                   />
                 </div>
-                <div class="flip-card-back">
+                <div className="flip-card-back">
                   <h1>John Doe</h1>
                   <p>Architect & Engineer</p>
                   <p>We love that guy</p>

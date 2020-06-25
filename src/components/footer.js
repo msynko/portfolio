@@ -26,7 +26,7 @@ const Footer = () => {
             <h3>Let’s Get In Touch</h3>
           </div>
           <div className="content">
-            <div class="left-side">
+            <div className="left-side">
               <h3>
                 <a href="https://github.com/msynko">Github</a>
               </h3>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/marynasynko">LinkedIn</a>
               </h3>
             </div>
-            <div class="right-side">
+            <div className="right-side">
               <h3>
                 <a href="#">Resume</a>
               </h3>
