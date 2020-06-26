@@ -37,7 +37,7 @@ const AboutBlurb = () => {
             </p>
 
             <div className="btn-row">
-              <Link to="/work">View Series</Link>
+              <Link to="#work">View Series</Link>
             </div>
           </div>
           <div className="images">

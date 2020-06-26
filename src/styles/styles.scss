@@ -307,7 +307,9 @@ header {
 
 //work section
 .video-section {
-  margin-top: 160px;
+  // margin-top: 160px;
+  margin-bottom: 160px;
+  // height: 100vh;
 
 
   .container {
@@ -369,6 +371,25 @@ header {
           text-align: center;
           width: 100%;
           position: absolute;
+
+          h4 {
+            margin-top: 80px;
+            font-weight: 700;
+            font-size: 0.875rem;
+            letter-spacing: 1.5px;
+            color: $off-white;
+            text-transform: uppercase;
+            text-decoration: none;
+
+          }
+
+          p {
+            font-size: .8rem;
+            line-height: 1.3rem;
+            font-weight: 300;
+            margin: 10px;
+
+          }
         }
 
         .sm {
@@ -377,6 +398,7 @@ header {
           top: 0;
           right: 2%;
           cursor: pointer;
+
 
           a {
             display: inline-flex;
@@ -395,16 +417,10 @@ header {
             }
           }
 
+
         }
 
-        h4 {
-          margin-top: 80px;
-          font-size: normal;
-        }
 
-        span {
-          font-size: 13px;
-        }
 
 
         .col-1 {

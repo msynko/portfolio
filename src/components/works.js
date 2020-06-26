@@ -37,7 +37,7 @@ const Work = () => {
     }
   `)
   return (
-    <div className="video-section">
+    <div className="video-section" id="work">
       <div className="container">
         <div className="video-player">
           <div className="grid">
@@ -64,7 +64,7 @@ const Work = () => {
                       </a>
                     </div>
                     <h4>To do list app</h4>
-                    <span>To do list created with React</span>
+                    <p>To do list build with React</p>
                   </div>
                 </div>
               </div>
@@ -79,13 +79,21 @@ const Work = () => {
                   />
                 </div>
                 <div className="flip-card-back">
-                  <p>To do List</p>
-                  <a href="#">
-                    <FaGithub></FaGithub>
-                  </a>
-                  <a href="#">
-                    <FaGlobeAmericas></FaGlobeAmericas>
-                  </a>
+                  <div className="flip-card-back-content">
+                    <div className="sm">
+                      <a href="https://github.com/msynko/react-piano">
+                        <FaGithub />
+                      </a>
+                      <a href="https://msynko.github.io/react-piano/">
+                        <FaGlobeAmericas />
+                      </a>
+                    </div>
+                    <h4>Piano App</h4>
+                    <p>
+                      An interactive Piano App build with React and Soundfont
+                      loader
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,7 +110,20 @@ const Work = () => {
                     }}
                   />
                 </div>
-                <div className="flip-card-back"></div>
+                <div className="flip-card-back">
+                  <div className="flip-card-back-content">
+                    <div className="sm">
+                      <a href="https://github.com/msynko/DineIn">
+                        <FaGithub />
+                      </a>
+                      <a href="https://msynko.github.io/dinein/">
+                        <FaGlobeAmericas />
+                      </a>
+                    </div>
+                    <h4>Landing Page</h4>
+                    <p>Landing page build with HTML,CSS,JS</p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -119,9 +140,20 @@ const Work = () => {
                   />
                 </div>
                 <div className="flip-card-back">
-                  <h1>John Doe</h1>
-                  <p>Architect & Engineer</p>
-                  <p>We love that guy</p>
+                  <div className="flip-card-back-content">
+                    <div className="sm">
+                      <a href="https://github.com/msynko/crypto-app">
+                        <FaGithub />
+                      </a>
+                      <a href="https://msynko.github.io/crypto-app/">
+                        <FaGlobeAmericas />
+                      </a>
+                    </div>
+                    <h4>BITCOIN CHART</h4>
+                    <p>
+                      30day Bitcoin Crypto Chart build with React, VX and D3.js
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
