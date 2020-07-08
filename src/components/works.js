@@ -39,6 +39,8 @@ const Work = () => {
   return (
     <div className="video-section" id="work">
       <div className="container">
+        <h3>Some of my projects</h3>
+
         <div className="video-player">
           <div className="grid">
             <div className="flip-card col-1">

@@ -36,9 +36,9 @@ const AboutBlurb = () => {
               principles as I endeavour to expand my ever-growing skillset.
             </p>
 
-            <div className="btn-row">
-              <Link to="#work">View Series</Link>
-            </div>
+            {/* <div className="btn-row">
+              <Link to="#work">View projects</Link>
+            </div> */}
           </div>
           <div className="images">
             <div className="top-right">

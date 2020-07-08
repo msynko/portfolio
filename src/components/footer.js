@@ -35,7 +35,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/marynasynko">LinkedIn</a>
               </h3>
             </div>
-            <div className="right-side">
+            <div class="right-side">
               <h3>
                 <a href="#">Resume</a>
               </h3>
