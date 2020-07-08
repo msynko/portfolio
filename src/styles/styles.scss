@@ -66,6 +66,16 @@ body {
     width: 400px;
     min-width: 400px;
   }
+
+  @media (max-width: 375px) {
+    width: 350px;
+    min-width: 350px;
+  }
+
+  @media (max-width: 320px) {
+    width: 320px;
+    min-width: 320px;
+  }
 }
 
 //Header
@@ -94,6 +104,15 @@ header {
           margin: 0 10px;
           font-size: 0.75rem;
         }
+
+        @media (max-width: 375px) {
+          margin: 0 5px;
+          font-size: 0.75rem;
+        }
+
+        @media (max-width: 320px) {
+          padding-left: 20px;
+        }
       }
     }
 
@@ -112,8 +131,18 @@ header {
             font-size: 0.5rem;
           }
 
+          @media (max-width: 375px) {
+            margin: 0 5px;
+            font-size: 0.5rem;
+          }
+
+
           &:last-child {
             margin-right: 0px;
+
+            @media (max-width: 320px) {
+              padding-right: 20px;
+            }
           }
         }
       }
@@ -154,8 +183,9 @@ header {
 
       @media (max-width: 425px) {
         font-size: 1.4rem;
-
       }
+
+
     }
 
     .main-image {
@@ -168,6 +198,15 @@ header {
 
       @media (max-width: 425px) {
         width: 400px;
+      }
+
+      @media (max-width: 375px) {
+        width: 350px;
+      }
+
+      @media (max-width: 320px) {
+        width: 320px;
+        margin: 0;
       }
 
     }
@@ -233,6 +272,11 @@ header {
       bottom: 50px;
     }
 
+
+    @media (max-width: 320px) {
+      padding-left: 20px;
+    }
+
     @keyframes blinking-cursor {
       0% {
         opacity: 0;
@@ -270,6 +314,13 @@ header {
       right: -20px;
       letter-spacing: 1.6px;
     }
+
+    @media (max-width: 320px) {
+      font-size: 0.5rem;
+      right: -30px;
+      letter-spacing: 1.6px;
+    }
+
   }
 }
 
@@ -337,6 +388,9 @@ header {
           font-size: 1.25rem;
         }
 
+        @media (max-width: 375px) {
+          font-size: 1rem;
+        }
 
       }
 
@@ -353,6 +407,10 @@ header {
         @media (max-width: 768px) {
           color: $off-white;
           margin: 20px 0 20px;
+        }
+
+        @media (max-width: 375px) {
+          font-size: .75rem;
         }
 
       }
@@ -446,15 +504,21 @@ header {
   margin-bottom: 160px;
 
   @media (max-width: 768px) {
+    margin-top: 0;
     background-color: $black;
     height: 750px;
   }
 
+  @media (max-width: 425px) {
+    margin-bottom: 30px;
+    background-color: white;
+  }
 
-  @media (max-width: 768px) {
-    margin-top: 0;
+  @media (max-width: 375px) {
+    height: 1400px;
 
   }
+
 
   .container {
     h3 {
@@ -480,13 +544,13 @@ header {
       @media (max-width: 425px) {
         font-size: 1.5rem;
         margin: 30px 0 30px;
+        color: $black;
       }
     }
 
     .video-player {
       width: 100%;
       margin: 0 auto;
-
 
       .grid {
         width: 100%;
@@ -508,6 +572,11 @@ header {
         @media (max-width: 425px) {
           flex-flow: row wrap;
           background-color: white;
+          margin-left: 0;
+        }
+
+        @media (max-width: 375px) {
+          height: 1300px;
         }
 
         .flip-card {
@@ -518,6 +587,14 @@ header {
 
           @media (max-width: 768px) {
             padding: 15px;
+          }
+
+          @media (max-width: 425px) {
+            padding: 0;
+          }
+
+          @media (max-width: 375px) {
+            padding-left: 70px;
           }
         }
 
@@ -657,6 +734,10 @@ footer {
           @media (max-width: 425px) {
             font-size: .8rem;
           }
+
+          @media (max-width: 320px) {
+            padding-left: 20px;
+          }
         }
       }
 
@@ -675,6 +756,7 @@ footer {
           @media (max-width: 425px) {
             font-size: .8rem;
           }
+
         }
       }
     }
@@ -698,6 +780,11 @@ footer {
       @media (max-width: 425px) {
         font-size: .5rem;
       }
+
+      @media (max-width: 320px) {
+        padding-left: 20px;
+      }
+
 
       .socials {
         a {
